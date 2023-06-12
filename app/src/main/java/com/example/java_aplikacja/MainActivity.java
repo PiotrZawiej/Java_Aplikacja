@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, SpaloneKalorieActivity.class);
         startActivity(i);
     }
+
+    public void previousMonthAction(View view) {
+    }
+
+    public void nextMonthAction(View view) {
+    }
 }
