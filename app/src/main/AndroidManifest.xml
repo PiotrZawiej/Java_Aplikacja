@@ -11,6 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Java_Aplikacja"
         tools:targetApi="31">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC51YRWIXZ_E1LvEvsahKvcxshuQVpgf6s"></meta-data>
         <activity
             android:name=".EventActivyty"
             android:exported="false" />

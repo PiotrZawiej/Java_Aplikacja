@@ -8,14 +8,49 @@
     tools:context=".SpaloneKalorieActivity">
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="152dp"
-        android:layout_height="32dp"
+        android:id="@+id/resultTextView"
+        android:layout_width="268dp"
+        android:layout_height="61dp"
+        android:background="#000000"
         android:text="spalone kalorie"
+        android:textAlignment="center"
+        android:textColor="#51BC98"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/numberEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <EditText
+        android:id="@+id/numberEditText"
+        android:layout_width="296dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="116dp"
+        android:background="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#51BC98"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/addbuton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/addbuton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="168dp"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.157" />
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
