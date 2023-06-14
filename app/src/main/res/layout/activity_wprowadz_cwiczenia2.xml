@@ -25,6 +25,7 @@
         android:layout_width="150dp"
         android:layout_height="67dp"
         android:layout_marginStart="16dp"
+        android:onClick="reakcjaPoprezdnieĆwiczenie"
         android:text="Poprzednie Cwiczenie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,6 +41,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.271"
-        app:srcCompat="@drawable/exercise_example" />
+        app:srcCompat="@drawable/gym_background" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
