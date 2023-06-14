@@ -11,4 +11,5 @@ public class WprowadzCwiczeniaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wprowadz_cwiczenia);
     }
+    
 }
